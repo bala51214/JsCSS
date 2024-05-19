@@ -33,6 +33,7 @@ function handleSearchFunctionality(){
     input
     .addEventListener("blur", function(){
         document.querySelector(".overlay").style.display = "none";
+        document.querySelector(".searchdata").style.display = "none"
     })
 
     input
